@@ -1,5 +1,4 @@
-# Web-Teknolojileri-Proje
-İlk Yükleme
+## Web-Teknolojileri-Proje
 
 # Ana Menü (Navbar)
 Hakkımda, özgeçmiş, şehrim, mirasımız, ilgi alanlarım sayfalarına geçiş kolaylığı sağlayan ve tüm sayfalarda üst kısımda bulunan menü.
