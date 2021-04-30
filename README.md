@@ -4,7 +4,7 @@
 Sayfalarımla ilgili css kodlarını oluşturduğum dosya.
 ## Ana Menü (Navbar)
 Hakkımda, özgeçmiş, şehrim, mirasımız, ilgi alanlarım sayfalarına geçiş kolaylığı sağlayan ve tüm sayfalarda üst kısımda bulunan menü.
-## İndex.html (Hakkımda)
+## index.html (Hakkımda)
 Kendimi tanıttığım, kendimle ilgili önemli bilgiler verdiğim giriş sayfası.
 ## cv.html (Özgeçmiş)
 İçerisinde eğitim bilgilerimin yer aldığı özgeçmiş sayfası.
