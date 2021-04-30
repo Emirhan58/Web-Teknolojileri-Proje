@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <nav>
+        <ul class="sidenav">
+            <li><a class="active" href="index.html">Hakkımda</a></li>
+            <li><a href="cv.html">Özgeçmiş</a></li>
+            <li><a href="sehrim.html">Şehrim</a></li>
+            <li><a href="mirasimiz.html">Mirasımız</a></li>
+            <li><a href="ilgiAlanlarim.html">İlgi Alanlarım</a></li>
+            <li style="float: right; "><a href="login.html" style="width: 100px; text-align: center;">Login</a></li>
+        </ul>
+    </nav>
+</div>
+
+<h2 style="text-align:center; padding: 30px;">Multiple Slideshows</h2>
+
+<div style="padding-top: 30px;" class="slideshow-container">
+  <div class="mySlides1">
+    <a href="https://tr.wikipedia.org/wiki/%C3%87ifte_Minareli_Medrese_(Sivas)"><img src="https://i.pinimg.com/originals/59/99/21/599921a6826832de523c596e77e8b42b.jpg" style="width:100%"></a>
+  </div>
+
+  <div class="mySlides1">
+    <img src="img_snow_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="img_mountains_wide.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+<p>ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+    ssadsadasd
+    asdasdas
+    das
+    asdasdas
+</p>
+<script>
+    var slideIndex = [1,1];
+    var slideId = ["mySlides1", "mySlides2"]
+    showSlides(1, 0);
+    showSlides(1, 1);
+    
+    function plusSlides(n, no) {
+      showSlides(slideIndex[no] += n, no);
+    }
+    
+    function showSlides(n, no) {
+      var i;
+      var x = document.getElementsByClassName(slideId[no]);
+      if (n > x.length) {slideIndex[no] = 1}    
+      if (n < 1) {slideIndex[no] = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex[no]-1].style.display = "block";  
+    }
+    </script>
+</body>
+</html>
