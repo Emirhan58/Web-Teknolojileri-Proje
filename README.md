@@ -1,5 +1,7 @@
 # Web-Teknolojileri-Proje
 
+## style.css
+Sayfalarımla ilgili css kodlarını oluşturduğum dosya.
 ## Ana Menü (Navbar)
 Hakkımda, özgeçmiş, şehrim, mirasımız, ilgi alanlarım sayfalarına geçiş kolaylığı sağlayan ve tüm sayfalarda üst kısımda bulunan menü.
 ## İndex.html (Hakkımda)
