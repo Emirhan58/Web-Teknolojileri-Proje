@@ -10,8 +10,8 @@ Kendimi tanıttığım, kendimle ilgili önemli bilgiler verdiğim giriş sayfas
 İçerisinde eğitim bilgilerimin yer aldığı özgeçmiş sayfası.
 ## sehrim.html
 Şehrimin nüfusu, gezilecek yerleri, imkanları gibi bilgilerin yer aldığı sayfa. Sayfada tanıttığım yerlerin resimleriyle doldurulmuş  bir slider da bulunmakta.
-## mirasimiz.html
-Şehrime ait kültürel miras niteliğine sahip eserleri, yapıları tanıttığım ve şehrimin güzide futbol takımını tanıttığım sayfa. 
+## takimimiz.html
+Şehrimin güzide futbol takımını tanıttığım sayfa. 
 ## ilgiAlanlarim.html
 Film, spor, dizi gibi ilgi alanlarımın bulunduğu ve bunlarla ilgili sitelerin API adreslerinden çektiğim verilerin bulunduğu sayfa.
 ## iletisim.html
