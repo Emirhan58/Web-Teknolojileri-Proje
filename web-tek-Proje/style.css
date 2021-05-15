@@ -1,74 +1,167 @@
 body {margin: 0;
     background-image: url(http://www.yenislayt.com/upload/fe0cd7a31d.jpg);
+    
+    /*background-color:#f1f1f1!important
+    */
+  }
+
+nav ul li a {
+  text-align: center;
 }
 
-ul.sidenav {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0;
-  background-color: #ffffff;
+#anaMenuLink {
+  background-color: rgba(10, 130, 243, 0.877);
   position: fixed;
+  z-index: 10;
   width: 100%;
-  overflow:auto;
-  z-index: 5;
-  top: 0px;
 }
 
-ul.sidenav li a {
-  display: block;
-  color: rgb(0, 0, 0);
-  padding: 8px 16px;
-  text-decoration: none;
-  height: 30px;
+#anaMenuLink li a{
+  color: rgb(255, 255, 255);
+}
+#anaMenuLink li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#logo {
+  margin-right: 15px;
+  width: 75px; 
+  height: 50px;
+}
+
+#secilmis {
+  background-color: red;
+  border-radius: 20px;
+}
+
+.content {
+  padding: 0px 15px;
+}
+
+#maconu {
+  /* ismi maconu ancak border radius sıfırlamak için her resimde kullandım */
+  border-radius: 0px;
+}
+
+#sehirTanitim {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+
+#sehirYazi p,h1,h2,h3,h4,h5,h6 {
+    padding: 5px 40px 0px 40px;
+}
+
+#sehirYazi ul {
+  margin-left: 15px;
+  font-family:cursive;
+}
+
+p{
+  font-size: medium;
+  font-family:cursive;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.içerik {
   float: left;
-  font-size: larger;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
 }
- 
-ul.sidenav li a.active {
-  background-color: #1302f8d7;
-  color: white;
+.içerik h1,h2,h3,h4,h5,h6,p {
+  padding: 5px 15px 0px 15px;
 }
-
-ul.sidenav li a.active:hover {
-  background-color: #00e1ffd7;
-  color: rgb(0, 0, 0);
-}
-
-ul.sidenav li a:hover:not(.active) {
-  background-color: rgb(231, 9, 9);
-  color: white;
+.içerik h3 {
+  padding-left: 15px;
 }
 
-div.content {
+#takimTanitim h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}  
+
+#takimYazi p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#takimYazi h3 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.içerikCV p,h3 {
+  text-align: center;
+}
+
+.içerikCV img {
+  width: 30%;
+  height: 300px;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 5px;
+}
+
+.içerikCV {
+  width: 50%;
   margin-left: 25%;
-  padding: 1px 16px;
-  height: 1000px;
+  margin-right: 25%;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
 }
 
-@media screen and (max-width: 900px) {
-  ul.sidenav {
+#filmler li{
+   font-family:cursive;
+}
+
+@media screen and (max-width:960px){
+  /* Tablet ve telefon */
+  #anaMenuLink {
+    background-color: rgba(10, 130, 243, 0.877);
+    position:relative;
+    z-index: 10;
     width: 100%;
-    height: auto;
-    position: relative;
   }
   
-  ul.sidenav li a {
-    float: left;
-    padding: 15px;
-  }
   
-  div.content {
-      margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 400px) {
-  ul.sidenav li a {
-    text-align: center;
-    float: none;
+  .içerik {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+  }
+  .içerikCV {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+  }
+  .içerik h1,h2,h3,h4,h5,h6,p {
+    padding: 5px 15px;
   }
 }
-
 
 /* İMAGE */
 
@@ -85,10 +178,16 @@ width: 400px;
   max-height: 400px;
   position: relative;
   margin: auto;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
 }
+
 
 /* Next & previous buttons */
 .prev, .next {
+  text-decoration: none;
   cursor: pointer;
   position: absolute;
   top: 50%;

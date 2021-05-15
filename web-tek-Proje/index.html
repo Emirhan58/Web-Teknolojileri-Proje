@@ -1,27 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div>
-    <nav>
-        <ul class="sidenav">
-            <li><a class="active" href="index.html">Hakkımda</a></li>
-            <li><a href="cv.html">Özgeçmiş</a></li>
-            <li><a href="sehrim.html">Şehrim</a></li>
-            <li><a href="mirasimiz.html">Mirasımız</a></li>
-            <li><a href="ilgiAlanlarim.html">İlgi Alanlarım</a></li>
-            <li><a href="iletisim.html">İletişim</a></li>
-            <li style="float: right; "><a href="login.html" style="width: 100px; text-align: center;">Login</a></li>
-        </ul>
-    </nav>
-</div>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="resimler/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar" navbar-inverse>
+            <div class="container-fluid" id="anaMenuLink">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-left"><img src="resimler/logo.jpg" id="logo"></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html" id="secilmis">Hakkımda</a></li>
+                <li><a href="cv.html">Özgeçmiş</a></li>
+                <li><a href="sehrim.html">Şehrim</a></li>
+                <li><a href="takimimiz.html">Takımımız</a></li>
+                <li><a href="ilgiAlanlarim.html">İlgi Alanlarım</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="iletisim.html">İletişim</a></li>          
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            </div>
+        </nav>
 
-<div style="padding-top: 30px;" class="content">
-  <h1></h1>
-</div>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="içerik">
+                        <img src="resimler/fotograf.jpg" title="Emirhan Kaya">
+                        <h2>MERHABA!</h2>
+                        <p>Merhaba ben Emirhan Kaya</p>
+                        <p>Kişisel web siteme hoş geldiniz!</p>
+                        <p>Bu sitede benim hakkımda bilgiler edineceksiniz.</p>
+                        <p>Sevdiğim etkinlikleri, yaptığım sporları, edindiğim başarıları</p>
+                        <p>Eğitim bilgilerimi,okuduğum üniversiteyi</p>
+                        <p>Memleketimi, memlekitimin özelliklerini, güzel yerlerini</p>
+                        <p>Keyifli bir şekilde öğreneceksiniz.</p>
+                    </div>
 
-</body>
+                    <div class="içerik">
+                        <h3>2. HOBİM: KODLAMA</h3>
+                        <p>Kodlama yaparak bir şeyler üretmeyi ve program yazmayı çok seviyorum.</p>
+                        <p>Oyun oynamak yerine tercih ettiğim 2 hobimden birisidir yazılım kodlamak.</p>
+                        <img src="resimler/kodlama.png" alt="Kodlama foto" id="maconu">
+                        <p>Yapay zeka üzerinde çalışmayı, projeler geliştirmeyi de çok istediğimi belirtmek isterim.</p>
+                        <p>Yapay zeka üzerinde çalışmaya başladığımda da hem hobim olduğu için hem de çok istediğim bir çalışma olduğu için oldukça eğleneceğimi düşünüyorum :)</p>
+                        <img src="resimler/yapay zeka.jpg" alt="Yapay zeka foto" id="maconu">
+                        <p>Ortaokuldan beri ilgili olduğum ancak hem fen lisesi dersleri hem de spordan, kodlama yapmaya zamanım kalmıyordu.</p>
+                        <p>Ancak Bilgisayar Mühendisliğini kazanınca tamamen kodlama dünyasının içerisine girme imkanı buldum.</p>
+                        <p>Hobim olan işi mesleğim edineceğim için de oldukça mutluyum :)</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="içerik">
+                        <h3>ANA HOBİM: WUSHU-KİCKBOX</h3>
+                        <p>16 yaşımdan beridir kickbox ve wushu sporları ile uğraşmaktayım.</p>
+                        <p>Bu dövüş sporlarını yaparken hem oldukça keyif alıyorum hem de tüm stresimi atıyorum.</p>
+                        <img src="resimler/atam.jpg" id="maconu" title="Erbaa wushu turnuvası maç önü">
+                        <h4>Katıldığım turnuvalardan bir tanesinde maçtan önce çekindiğim fotoğraf</h4>
+                        <img src="resimler/madalya.jpg" id="maconu" title="Wushu birincilik madalyası">
+                        <h4>Turnuva sonu aldığım madalya :)</h4>
+                        <br>
+                        <p>Son 1-2 yılda kickboxda yardımcı hocalık yapma fırsatım oldu.</p>
+                        <p>Eğitim almak kadar eğitim vermekten de oldukça zevk aldığımı fark ettim</p>
+                        <p>Hem kendi kendimi eğitiyor hem de sorumluluğumda olan gruba eğitim veriyordum.</p>
+                        <p>Wushu-Kickbox dövüş sporları hayatım boyunca bırakmayacağım hobim oldular :)</p>
+                    </div>        
+                </div>
+            </div>
+        </section>
+
+    </body>
 </html>

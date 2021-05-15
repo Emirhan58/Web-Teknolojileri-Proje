@@ -1,27 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="resimler/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
-    <nav>
-        <ul class="sidenav">
-            <li><a class="active" href="index.html">Hakkımda</a></li>
+    <nav class="navbar" navbar-inverse>
+        <div class="container-fluid" id="anaMenuLink">
+          <div class="navbar-header">
+            <a href="index.html" class="navbar-left"><img src="resimler/logo.jpg" id="logo"></a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Hakkımda</a></li>
             <li><a href="cv.html">Özgeçmiş</a></li>
             <li><a href="sehrim.html">Şehrim</a></li>
-            <li><a href="mirasimiz.html">Mirasımız</a></li>
+            <li><a href="takimimiz.html">Takımımız</a></li>
             <li><a href="ilgiAlanlarim.html">İlgi Alanlarım</a></li>
-            <li><a href="iletisim.html">İletişim</a></li>
-            <li style="float: right; "><a href="login.html" style="width: 100px; text-align: center;">Login</a></li>
-        </ul>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="iletisim.html" id="secilmis">İletişim</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </div>
     </nav>
-</div>
 
-<div style="padding-top: 30px;" class="content">
-  <h1></h1>
-</div>
+    <section class="content">
+        <h2>Responsive Sidenav Example</h2>
+        <p>This example use media queries to transform the sidenav to a top navigation bar when the screen size is 900px or less.</p>
+        <p>We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.</p>
+        <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+        <h3>Resize the browser window to see the effect.</h3>
+    </section>
 
 </body>
 </html>
