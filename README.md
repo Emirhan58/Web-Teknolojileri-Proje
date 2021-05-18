@@ -25,4 +25,4 @@ Kullanıcıdan aldığım iletişim bilgilerinin ekrana yansıtıldığı sayfa.
 ## login.html
 Kullanıcıdan kullanıcı adı ve şifre istediğim sayfa.
 ## login.php
-Kullanıcı adı: G201210010@sakarya.edu.tr ve şifre: G201210010   şeklinde olup bu bilgilerinin doğru, yanlış ve boş olup olmadığı kontrol edildiği ve ona göre dönüş yapan sayfa.
+Kullanıcı adı: g201210010@sakarya.edu.tr ve şifre: g201210010   şeklinde olup bu bilgilerinin doğru, yanlış ve boş olup olmadığı kontrol edildiği ve ona göre dönüş yapan sayfa.
