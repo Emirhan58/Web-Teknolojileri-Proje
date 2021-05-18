@@ -15,7 +15,7 @@ Kendimi tanıttığım, kendimle ilgili önemli bilgiler verdiğim giriş sayfas
 ## ilgiAlanlarim.html
 Film, spor, dizi gibi ilgi alanlarımın bulunduğu ve bunlarla ilgili sitelerin API adreslerinden çektiğim verilerin bulunduğu sayfa.
 ## ilgiAlanlarimBilgi.js
-Film, spor, dizi gibi ilgi alanlarımın bulunduğu ve bunlarla ilgili sitelerin API adreslerinden veri çekerek işlem yaptığım ve ilgiAlanlarim.html sayfasına verileri gönderdiğim dosya
+Film, spor, dizi gibi ilgi alanlarımın bulunduğu ve bunlarla ilgili sitelerin API adreslerinden veri çekerek işlem yaptığım ve ilgiAlanlarim.html sayfasına verileri gönderdiğim dosya.
 ## iletisim.html
 Siteyi ziyaret eden kişinin iletişim bilgilerini form elemanları kullanarak istediğim sayfa.
 ## iletisimKontrol.js
