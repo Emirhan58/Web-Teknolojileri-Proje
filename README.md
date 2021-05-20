@@ -1,4 +1,4 @@
-# Web-Teknolojileri-Proje
+# Web-Teknolojileri-Proje |  Site Linki: www.emirhankaya.epizy.com
 
 ## style.css
 Sayfalarımla ilgili css kodlarını oluşturduğum dosya.
